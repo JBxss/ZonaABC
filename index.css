@@ -250,3 +250,86 @@ nav .navigation ul li a:hover {
     right: 15px;
     bottom: 100px;
 }
+
+/* registration */
+
+#registration {
+    padding: 6vw 8vw 6vw 8vw;
+    background-image: linear-gradient(rgba(36, 165, 222, 0.2), rgba(36, 165, 222, 0.5)), url("assets/20210518105912.alfabetizacion.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#registration .reminder {
+    color: var(--main-bg-color);
+}
+
+#registration .reminder h1 {
+    color: var(--main-bg-color);
+}
+
+#registration .reminder .time {
+    display: flex;
+    margin-top: 40px;
+}
+
+#registration .reminder .time .date {
+    text-align: center;
+    padding: 13px 33px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 5px;
+    margin: 0 5px 10px 5px;
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+#registration .form {
+    background: var(--main-bg-color);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+#registration .form input {
+    margin: 15px 0;
+    padding: 15px 10px;
+    border: 1px solid var(--secundary-color);
+    outline: none;
+}
+
+#registration .form input::placeholder {
+    color: var(--secundary-color);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+#registration .form .btn {
+    margin-top: 20px;
+}
+
+#registration a.secondary {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: var(--main-bg-color);
+    font-weight: 600;
+    border-radius: 5px;
+    color: var(--main-bg-color);
+    background-color: var(--secundary-color);
+    transition: var(--transition);
+}
+
+#registration a.secondary:hover {
+    color: var(--secundary-color);
+    background-color: var(--main-bg-color);
+}
