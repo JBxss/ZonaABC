@@ -170,6 +170,7 @@ nav .navigation ul li a:hover {
 #features .feature-box {
     background: #e6e6eb;
     text-align: start;
+    padding: 15px;
 }
 
 #features .feature-box .fa-graduation-cap {
@@ -198,4 +199,54 @@ nav .navigation ul li a:hover {
     font-size: 1rem;
     font-weight: 400;
     color: #757373;
+}
+
+/* course */
+
+#courses {
+    padding: 8vw 8vw 0 8vw;
+    text-align: center;
+}
+
+#courses .course-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#courses .course-item {
+    text-align: start;
+    background: #e6e6eb;
+    height: 100%;
+    position: relative;
+}
+
+#courses .course-item img {
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+}
+
+#courses .course-item .details {
+    padding: 15px 15px 0 15px;
+}
+
+#courses .course-item .details .fa-star {
+    color: #FDC93B;
+    font-size: .9rem;
+}
+
+#courses .course-item .cost {
+    background-color: var(--secundary-color);
+    color: white;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 15px;
+    bottom: 100px;
 }
