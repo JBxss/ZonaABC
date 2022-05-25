@@ -333,3 +333,68 @@ nav .navigation ul li a:hover {
     color: var(--secundary-color);
     background-color: var(--main-bg-color);
 }
+
+/* profiles */
+
+#experts {
+    padding: 8vw 8vw 0 8vw;
+    text-align: center;
+}
+
+#experts .expert-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#experts .expert-box .profile img {
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+#experts .expert-box .profile {
+    background: #e6e6eb;
+    padding: 30px 10px;
+}
+
+.profile-links {
+   margin-top: 10px;
+}
+
+.profile-links .fa-facebook-f {
+    padding: 10px 13px;
+    border: 1px solid rgb(21, 21, 100);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.profile-links .fa-facebook-f:hover {
+    background: rgb(21, 21, 100);
+    color: white;
+}
+
+.profile-links .fa-instagram {
+    padding: 10px 13px;
+    border: 1px solid rgb(21, 21, 100);
+    cursor: pointer;
+}
+
+.profile-links .fa-instagram:hover {
+    background: rgb(21, 21, 100);
+    color: white;
+}
+
+.profile-links .fa-linkedin-in {
+    padding: 10px 13px;
+    border: 1px solid rgb(21, 21, 100);
+    cursor: pointer;
+}
+
+.profile-links .fa-linkedin-in:hover {
+    background: rgb(21, 21, 100);
+    color: white;
+}
