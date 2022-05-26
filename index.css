@@ -47,6 +47,7 @@ nav {
     align-items: center;
     padding: 1vw 8vw;
     box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.15);
+    z-index: 999;
 }
 
 nav .logo {
@@ -204,7 +205,7 @@ nav .navigation ul li a:hover {
 /* course */
 
 #courses {
-    padding: 8vw 8vw 0 8vw;
+    padding: 8vw;
     text-align: center;
 }
 
@@ -330,6 +331,7 @@ nav .navigation ul li a:hover {
 }
 
 #registration a.secondary:hover {
+    border: 1px solid var(--secundary-color);
     color: var(--secundary-color);
     background-color: var(--main-bg-color);
 }
@@ -337,7 +339,7 @@ nav .navigation ul li a:hover {
 /* profiles */
 
 #experts {
-    padding: 8vw 8vw 0 8vw;
+    padding: 8vw;
     text-align: center;
 }
 
@@ -381,6 +383,7 @@ nav .navigation ul li a:hover {
     padding: 10px 13px;
     border: 1px solid rgb(21, 21, 100);
     cursor: pointer;
+    transition: var(--transition);
 }
 
 .profile-links .fa-instagram:hover {
@@ -392,9 +395,148 @@ nav .navigation ul li a:hover {
     padding: 10px 13px;
     border: 1px solid rgb(21, 21, 100);
     cursor: pointer;
+    transition: var(--transition);
 }
 
 .profile-links .fa-linkedin-in:hover {
     background: rgb(21, 21, 100);
     color: white;
 }
+
+/* footer */
+
+footer {
+    padding: 8vw;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer .footer-col {
+    padding-bottom: 40px;
+}
+
+footer h3 {
+    color: var(--main-bg-color);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+footer li {
+    list-style: none;
+    color: #ddd9d9;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+footer li:hover {
+    color: var(--secundary-color);
+    font-weight: 600;
+}
+
+footer p {
+    color: #ddd9d9;;
+}
+
+footer .suscribe {
+    margin-top: 20px;
+}
+
+footer input {
+    width: 220px;
+    padding: 15px 12px;
+    background: #ddd9d9;
+    border: none;
+    outline: none;
+    color: var(--secundary-color);
+}
+
+footer input::placeholder {
+    color: var(--secundary-color);
+    font-family: "Poppins", sans-serif;
+}
+
+footer .suscribe a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 12px 15px;
+    background-color: var(--main-bg-color);
+    font-weight: 600;
+}
+
+
+footer a.secondary {
+    color: var(--main-color);
+    background-color: var(--secundary-color);
+    transition: var(--transition);
+}
+
+footer a.secondary:hover {
+    color: var(--secundary-color);
+    background-color: var(--main-bg-color);
+}
+
+footer .copyright {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+footer .copyright p {
+    color: var(--main-bg-color);
+}
+
+
+.footer-links {
+    margin-top: 0px;
+ }
+ 
+ .footer-links .fa-facebook-f {
+     background: var(--secundary-color);
+     color: var(--main-color);
+     padding: 10px 13px;
+     border: 1px solid var(--secundary-color);
+     cursor: pointer;
+     transition: var(--transition);
+ }
+ 
+ .footer-links .fa-facebook-f:hover {
+     background-color: #ddd9d9;
+     color: var(--secundary-color);
+ }
+ 
+ .footer-links .fa-instagram {
+    background: var(--secundary-color);
+    color: var(--main-color);
+    padding: 10px 13px;
+    border: 1px solid var(--secundary-color);
+    cursor: pointer;
+    transition: var(--transition);
+ }
+ 
+ .footer-links .fa-instagram:hover {
+    background-color: #ddd9d9;
+    color: var(--secundary-color);
+ }
+ 
+ .footer-links .fa-linkedin-in {
+    background: var(--secundary-color);
+    color: var(--main-color);
+    padding: 10px 13px;
+    border: 1px solid var(--secundary-color);
+    cursor: pointer;
+    transition: var(--transition);
+ }
+ 
+ .footer-links .fa-linkedin-in:hover {
+    background-color: #ddd9d9;
+    color: var(--secundary-color);
+ }
+ 
