@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
     <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
-    <title>ZonaABC</title>
+    <title>Zona ABC</title>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
 
     <link
       rel="stylesheet"
@@ -23,12 +29,14 @@
 
       <div class="navigation">
         <ul>
+          <i id="menu-close" class="fa-solid fa-xmark"></i>
           <li><a href="#">Home</a></li>
           <li><a href="#">Sobre Nosotros</a></li>
           <li><a href="#">Blog</a></li>
           <li><a href="#">Cursos</a></li>
           <li><a href="#">Contacto</a></li>
         </ul>
+        <i id="menu-btn" class="fa-solid fa-bars"></i>
       </div>
     </nav>
 
@@ -355,7 +363,7 @@
       <div class="copyright">
         <p>
           Copyrigth &copy2022 Todos los derechos reservados | Esta pagina fue
-          hecha por JBxss
+          hecha por <b>JBxss</b>
         </p>
         <div class="footer-links">
           <i class="fab fa-facebook-f"></i>
@@ -365,6 +373,16 @@
       </div>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+    <script>
+      $(document).ready(() => {
+        $("#menu-btn").click(function () {
+          $("nav .navigation ul").addClass("active");
+        });
+
+        $("#menu-close").click(function () {
+          $("nav .navigation ul").removeClass("active");
+        });
+      });
+    </script>
   </body>
 </html>
