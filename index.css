@@ -111,7 +111,7 @@ nav .navigation ul li a:hover {
       rgba(36, 165, 222, 0.2),
       rgba(36, 165, 222, 0.5)
     ),
-    url("assets/lanzaderas-CE-alfabetizacion.jpg");
+    url("assets/home-bckg.jpg");
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -188,23 +188,23 @@ nav .navigation ul li a:hover {
 
 #features .feature-box {
   background: #e6e6eb;
-  text-align: start;
+  text-align: center;
   padding: 15px;
 }
 
 #features .feature-box .fa-graduation-cap {
   font-size: 2.3rem;
-  color: #2964aa;
+  color: var(--main-color);
 }
 
 #features .feature-box .fa-award {
   font-size: 2.3rem;
-  color: #2964aa;
+  color: var(--main-color);
 }
 
 #features .feature-box .fa-chalkboard-user {
   font-size: 2.3rem;
-  color: #2964aa;
+  color: var(--main-color);
 }
 
 #features .feature-box h3 {
@@ -278,7 +278,7 @@ nav .navigation ul li a:hover {
       rgba(36, 165, 222, 0.2),
       rgba(36, 165, 222, 0.5)
     ),
-    url("assets/20210518105912.alfabetizacion.png");
+    url("assets/register-bckg.png");
   width: 100%;
   height: 100%;
   background-size: cover;
